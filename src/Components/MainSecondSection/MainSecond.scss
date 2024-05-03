@@ -1,0 +1,9 @@
+@import '/src/Sass/Color.scss';
+
+.MainSecond {
+  background-color: $main-bck-colordark;
+  .waveImg {
+    padding: 30px 0px 0px 0px;
+    background-color:$main-bck-color;
+  }
+}

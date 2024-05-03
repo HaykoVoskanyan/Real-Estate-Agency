@@ -1,0 +1,12 @@
+@import "/src/Sass/Color.scss";
+.Layouts {
+  background-color: $main-bck-color;
+  &__img {
+    display: block;
+    height: 100px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: $main-bck-colordark;
+    padding: 20px 150px;
+  }
+}

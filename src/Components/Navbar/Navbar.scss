@@ -1,0 +1,35 @@
+@import "/src/Sass/Color.scss";
+.Navbar {
+  background-color: $main-bck-color;
+  padding: 0px 20px;
+  .conteiner {
+    .Navbar__nav-ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+      a {
+        font-size: 18px;
+        color: $main-txt-color;
+        font-weight: 500;
+      }
+      .logo {
+        font-size: 39px;
+        margin-left: 50px;
+        letter-spacing: 1.6px;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 600;
+        color: $main-txt-color;
+      }
+    }
+    .Navbar__a{
+      display: flex;
+      gap: 70px;
+      letter-spacing: 0.92px;
+    }
+  }
+
+}
+.active{
+ color:$main-footer-navlink !important;
+}

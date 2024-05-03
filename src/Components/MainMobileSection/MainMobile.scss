@@ -1,0 +1,82 @@
+@import '/src/Sass/Color.scss';
+
+.MainMobile{
+  background-color:$main-bck-colordark;
+  padding: 50px 50px 0px 50px;
+  &__title{
+   margin: 0 auto;
+    text-align: center;
+    width: 400px;
+    color: $main-bck-white;
+    h1{
+      font-size: 50px;
+      margin-bottom: 15px;
+    }
+    p{
+      font-size: 15px;
+      letter-spacing: 0.32px;
+    }
+  }
+  .MainMobile__card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        width: 280px;
+        height: 526px;
+    }
+    &-dsc{
+        h3{
+            width: 400px;
+            font-size: 32px;
+            line-height: 40px;
+            letter-spacing: 1.3px;
+            color:$main-bck-white;
+            margin-bottom: 15px;
+        }
+        p{
+          width: 400px;
+          font-size: 16px;
+          line-height: 26px;
+          letter-spacing: 0.3px;
+          color:$main-bck-white
+      }
+    }
+  }
+}
+.Mobile__footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 361px;
+  margin-top: 55px;
+    h2{
+      color: $main-bck-white;
+      font-size: 42px;
+      font-weight: 400;
+      font-family: 'Times New Roman', Times, serif;
+      letter-spacing: 1.92px;
+      width: 430px;
+      text-align: center;
+      line-height: 52px;
+      margin-bottom: 10px;
+    }
+    p{
+      color: $main-bck-white;
+      font-size: 12px;
+      letter-spacing: 0.3px;
+    }
+  &-btn{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    img{
+      width: 170px;
+      height: 55px;
+      cursor: pointer;
+    }
+
+    
+  }
+}

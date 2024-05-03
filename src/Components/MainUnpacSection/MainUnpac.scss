@@ -1,0 +1,19 @@
+@import '/src/Sass/Color.scss';
+
+.MainUnpac {
+  // background-image: ('/Image/IMAGE9.png');
+  background: url("../../../public/Image/IMAGE9.png");
+  height: 574px ;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  h1 {
+    font-size: 100px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 4.08px;
+    color: $main-bck-slider;
+    padding-top:ceil($number: 17%);
+  }
+}

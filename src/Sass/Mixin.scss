@@ -1,0 +1,13 @@
+@import '/src/Sass/Color.scss';
+
+@mixin buttonStyle  {
+
+    width: 125px;
+    height: 43px;
+    border: 2px solid $main-bck-color;;
+    border-radius: 60px;
+    color:$main-txt-color;
+    font-size: 14px;
+    background-color: $main-modal-bck;
+    cursor: pointer;
+}

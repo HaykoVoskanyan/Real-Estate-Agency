@@ -1,0 +1,38 @@
+@import "/src/Sass/Color.scss";
+@import "/src/Sass/Mixin.scss";
+.MainModal {
+  background: url("../../../public//Image/Frame.png");
+    &__card{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 30px 40px 30px;
+      &-section{
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+          h2{
+            font-size: 28px;
+            font-weight: 400;
+            color: $main-title-color;
+            font-family: 'Times New Roman', Times, serif;
+            letter-spacing: 1.08px;
+          }
+            &-p2,&-p1{
+              width: 350px;
+              font-size: 14px;
+              line-height: 20px;
+              color: $main-txt-color;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            }
+          }
+        }
+  button {
+    @include buttonStyle;
+    transition: 0.4s;
+  }
+  button:hover{
+    transform: scale(1.1);
+  }
+}

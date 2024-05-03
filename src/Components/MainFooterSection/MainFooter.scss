@@ -1,0 +1,53 @@
+@import "/src/Sass/Color.scss";
+
+.MainFooter {
+  background-color: $main-footer-bck;
+  padding-top: 50px;
+  padding: 50px;
+  &__dsc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid $main-footer-border;
+    padding: 40px;
+    h4{
+      display: flex;
+      align-items: center;
+      color:$main-txt-color;
+      font-size: 15px;
+      font-weight: 400;
+      gap: 5px;
+      img{
+        height: 25px;
+        width: 20px;
+      }
+    }
+    span{
+      color:$main-footer-span;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    p{
+      font-size: 16px;
+      color:$main-txt-color;
+
+    }
+  }
+  &__finish{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+      span{
+        color:$main-footer-span;
+        font-size: 15px;
+        font-weight: 500;
+      }
+      p{
+        font-size: 12px;
+        line-height: 16.5px;
+        color:$main-txt-color;
+        letter-spacing: 0.35px;
+      }
+  }
+}

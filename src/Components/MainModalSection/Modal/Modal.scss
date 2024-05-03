@@ -1,0 +1,48 @@
+@import '/src/Sass/Color.scss';
+.Modal {
+  position: fixed;
+  text-align: center;
+  background-color:$main-bck-colordark;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $main-modal-txt;
+  &__content {
+    position: relative;
+    background-color:$main-title-color;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.84);
+    width: 700px;
+    height: 600px;
+    h1{
+      font-size: 40px;
+      font-weight: 400;
+      font-family: 'Times New Roman', Times, serif;
+      color: $main-bck-color;
+      margin-bottom: 15px;
+    }
+    p{
+      text-align: left;
+      line-height: 25px;
+    }
+    h3{
+      font-family: 'Times New Roman', Times, serif;
+      color: $main-bck-color;
+      font-size: 25px;
+      margin-bottom: 15px;
+    }
+    span{
+      position: absolute;
+      top: 0;
+      right: 7px;;
+      font-size: 30px;
+      cursor: pointer;
+      color: $main-modal-btn;
+    }
+  }
+}
