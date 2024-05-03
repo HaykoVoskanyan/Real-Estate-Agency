@@ -26,9 +26,7 @@ export default function App() {
   )
   return (
     <RouterProvider router={router}>
-      <div>
-      </div>
-      </RouterProvider>
+    </RouterProvider>
   )
 }
 

@@ -1,0 +1,104 @@
+@import '/src/Sass/Color.scss';
+
+.About{
+  background-color: $main-bck-color;
+  margin-top: 50px;
+  &__section {
+    &-header {
+      background: url("/Image/AboutBck.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 429px;
+      position: relative;
+      &-title{
+        height: 110px;
+        width:50% ;
+        background-color:$main-bck-colordark;
+        position: absolute;
+        left: 25%;
+        bottom: -50px;
+        border-radius: 18px;
+        padding: 20px;
+        line-height: 35px;
+        h2{
+          font-size: 40px;
+          font-family: 'Times New Roman', Times, serif;
+          font-weight: 400;
+          color:$main-bck-color;
+          letter-spacing: 2.8px;
+          padding-bottom: 5px;
+          span{
+              color:$about-span-color
+          }
+        }
+        h4{
+          color:$main-bck-color;
+          letter-spacing: 2.22px;
+          font-weight: 400;
+        }
+      }
+    }
+    &-author{
+      max-width: 1140px;
+      margin: 0 auto;
+      margin-top: 80px;
+      border: 2px solid black;
+      &-edit{
+        padding: 10px 15px;
+        display: flex;
+        gap: 35px;
+        img{
+          width: 66px;
+          height: 53px;
+          border-radius: 142% 0 152% 80%;
+          object-fit: cover;
+        }
+        &-dsc{
+          p{
+            font-size: 18px;
+            margin-bottom: 5px;
+            color: $main-txt-color;
+            span{
+              color:$main-footer-navlink;
+              font-weight: 400;
+            }
+          }
+        }
+        &-link{
+          display: flex;
+          gap: 15px;
+          i{
+            font-size: 30px;
+            color:$main-bck-colordark;
+            cursor: pointer;
+          }
+        }
+      }
+      &-story{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 0px 15px;
+        color:$main-txt-color;
+        line-height: 30px;
+        h2{
+          color: $main-bck-colordark;
+          position: relative;
+        }
+        h2:after{
+          background-color:$main-modal-btn;
+          bottom: -6px;
+          content: '';
+          height: 4px;
+          left: 0;
+          position: absolute;
+          width: 40px;
+          }
+          h3{
+            color: $main-bck-colordark;
+          }
+        }
+      }
+    }
+  }  
