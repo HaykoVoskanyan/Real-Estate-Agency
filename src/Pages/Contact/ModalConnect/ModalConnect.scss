@@ -1,0 +1,37 @@
+@import "/src/Sass/Color.scss";
+.ModalConnect {
+  position: fixed;
+  text-align: center;
+  background-color: $connect-modal-bck;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__content {
+    position: relative;
+    background-color: $main-title-color;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.84);
+    width: 350px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+    p {
+      color: $main-modal-txt;
+    }
+    span {
+      position: absolute;
+      top: 2px;
+      right: 5px;
+      font-size: 22px;
+      color: $main-modal-btn;
+      cursor: pointer;
+    }
+  }
+}

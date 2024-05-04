@@ -11,3 +11,14 @@
     background-color: $main-modal-bck;
     cursor: pointer;
 }
+@mixin connectbtn{
+    width: 100px;
+    margin: 0 auto;
+    color:$main-bck-colordark;
+    text-decoration: none;
+    font-size: 25px;
+    border:none;
+    background-color:$connect-bck-color;
+    font-weight: 500;
+    cursor: pointer;
+}
