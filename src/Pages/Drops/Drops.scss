@@ -1,0 +1,104 @@
+@import "/src/Sass/Color.scss";
+
+.Drops {
+  margin-top: 50px;
+  &_title {
+    background: url("/Image/dropsIsa.png");
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+
+    &-dsc {
+      width: 400px;
+      height: 150px;
+      position: absolute;
+      top: 40%;
+      left: 10%;
+      background-color: $drops-img-color;
+      color: $main-txt-color;
+      padding: 15px;
+      border: double;
+      h2{
+        padding-top: 16px;
+      }
+      p {
+        margin-top: 7px;
+      }
+    }
+  }
+  &__section{
+    padding: 25px 30px;
+    &-dsc{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      &-left{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h3{
+          color:$main-bck-colordark;
+          font-size: 25px;
+          width: 450px;
+          margin-bottom: 10px;
+        }
+        p{
+          color: $legal-txt-color;
+          i{
+            color:$main-bck-colordark;
+            margin-right: 5px;
+          }
+        }
+      }
+      img{
+        width: 600px;
+      }
+    }
+    .Drops__first-p{
+      font-size: 22px;
+      color: $main-txt-color;
+    }
+  }
+  &__section-two{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+      h2{
+        text-align: start;
+        color:$main-bck-colordark;
+      }
+      p{
+        color:$legal-txt-color;
+        width: 650px;
+      }
+    .Drops__controll{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 15px;
+      img{
+        width: 150px;
+        height: 180px;
+      }
+      .Drops__section-two-dsc,
+      .Drops__section-two-dsc2{
+        h4{
+          font-size: 22px;
+          color: $main-txt-color;
+          text-align: start;
+          margin-bottom: 10px;
+        }
+        p{
+          width: 500px;
+          letter-spacing: 0.5px;
+          line-height: 22px;
+        }
+      }
+      
+    }
+  }
+}

@@ -14,7 +14,7 @@ export default function Legal() {
           <ul>
             <NavLink to='/report'>ISA Reports</NavLink>
             <NavLink to='/subscript'>Subscription</NavLink> 
-            <NavLink to='service'>Advisory Services</NavLink> 
+            <NavLink to='/service'>Advisory Services</NavLink> 
           </ul>
         </nav>
        </div>
@@ -48,8 +48,17 @@ export default function Legal() {
        <div className='Legal__footer'>
         <div className='Legal__footer-touch'>Get It Touch</div>
         <p className='first__p'><img src={logofooter} alt="logofooter" /> International State Analitic</p>
-        <p className='second__p'>ISA (International Strategic Analysis) is one of the world’s leading providers of international market analysis, economic forecasting and country intelligence for many of the world's leading companies, organizations and governments, with clients in more than 115 countries.</p>
-        <NavLink to='/about'>VIEW MORE ...</NavLink>       
+        <p className='second__p'>ISA (International Strategic Analysis) is one of the world’s leading providers of international market analysis, economic forecasting and country intelligence for many of the world's leading companies, organizations and governments, with clients in more than 115 countries.</p>    
+        <button className="btn" type="button">
+        <NavLink to='/about'>VIEW MORE ...</NavLink>  
+          <div id="container-stars">
+            <div id="stars"></div>
+          </div>
+        <div id="glow">
+            <div className="circle"></div>
+            <div className="circle"></div>
+          </div>
+        </button>
        </div>
       </div>
     </div>

@@ -1,4 +1,6 @@
 @import "/src/Sass/Color.scss";
+@import "/src/Sass/Mixin.scss";
+
 
 .Legal {
   padding: 20px 50px 50px 50px;
@@ -8,8 +10,8 @@
     margin-top: 10px;
     position: sticky;
     align-items: center;
+    background-color: $main-bck-color;
       top:0px;
-      background-color: white;    height: 53.3333px;
       min-height: 0px;
       overflow: visible;
     img{
@@ -73,14 +75,12 @@
       }
       .second__p{
         width: 600px;
-        margin-top: 15px;
+        margin:15px 0px;
         color: $legal-txt-color;
         line-height: 23px;
       }
       a{
-        color: $legal-txt-color;
-        font-size: 18px;
-        margin-top: 7px;
+        @include legalBtn;
       }
       &-touch{
         background-color: $legal-animate-color;

@@ -22,3 +22,25 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+@mixin legalBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11rem;
+    overflow: hidden;
+    height: 3rem;
+    background-size: 300% 300%;
+    backdrop-filter: blur(1rem);
+    transition: 0.5s;
+    animation: gradient_301 5s ease infinite;
+    border: double 4px transparent;
+    background-image: linear-gradient(#212121, #000000),  linear-gradient(137.48deg, #2f9621dc 10%,#c9348d 45%, #8F51EA 67%, #0044ff 87%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    color: $main-bck-colordark;
+    font-weight: 800;
+}
+
+
+
