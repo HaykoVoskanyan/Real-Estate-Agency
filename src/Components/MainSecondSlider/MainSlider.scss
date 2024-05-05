@@ -21,10 +21,11 @@
     }
     div {
       width: 250px;
-      height: 70px;
+      height: 160px;
          h4{
             color: $main-title-color;
             font-size: 22px;
+            text-align: start;
          }
          p{
             color: $main-txt-color;
@@ -40,7 +41,7 @@
    font-size: 20px;
   }
   .slick-dots{
-   bottom: -40px;
+   bottom: -20px;
   }
   
 }

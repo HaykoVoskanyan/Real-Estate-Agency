@@ -10,7 +10,7 @@ export default function About() {
          <div className="About__section-header">
           <div className='About__section-header-title'>
             <h2>Top <span>Lifetime ISAs</span> (LISAs)</h2>
-            <h4>How they work, who they’re for and which provider pays the most</h4>
+            <p>How they work, who they’re for and which provider pays the most</p>
           </div>
          </div>
          <div className="About__section-author">
@@ -20,11 +20,6 @@ export default function About() {
                 <p><span>Benjamin Taylor</span> | Edited by <span>Hayk Voskanyan</span></p>
                 <p>Updated 9 April 2024</p>
               </div>
-              {/* <div className="About__section-author-edit-link">
-                <i class="bi bi-facebook"></i>
-                <i class="bi bi-twitter-x"></i>
-                <i class="bi bi-envelope-fill"></i>
-              </div> */}
             </div>
             <div className="About__section-author-story">
               <h2>What is a Lifetime ISA?</h2>
