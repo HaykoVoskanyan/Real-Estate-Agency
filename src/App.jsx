@@ -6,6 +6,7 @@ import Drops from './Pages/Drops/Drops'
 import Legal from './Pages/Legal/Legal'
 import Connect from './Pages/Contact/Connect'
 import Main from './Components/Main/Main'
+// import Vlog from './Pages/Legal/Vlog/Vlog'
 
 
 
@@ -20,6 +21,7 @@ export default function App() {
       <Route element={<Connect />} path="connect"></Route>
       <Route element={<Drops />} path="drops" ></Route>
       <Route element={<Legal />} path="legal" ></Route>
+      {/* <Route element={<Vlog/>} path='/vlog'></Route> */}
     </Route>
     </>
     )
