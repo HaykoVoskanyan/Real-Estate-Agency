@@ -9,7 +9,7 @@ export default function MainBuyers() {
         <img src={footerWave} alt="Wave" />
         <div className='MainBuyers__title'>
             <span>A place to grow your first home fund</span>
-            <h2>Accounts for first-time home buyers</h2>
+            <strong>Accounts for first-time home buyers</strong>
         </div>
 
     </div>

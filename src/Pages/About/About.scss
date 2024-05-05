@@ -1,6 +1,6 @@
-@import '/src/Sass/Color.scss';
+@import "/src/Sass/Color.scss";
 
-.About{
+.About {
   background-color: $main-bck-color;
   margin-top: 50px;
   &__section {
@@ -10,95 +10,96 @@
       background-repeat: no-repeat;
       height: 429px;
       position: relative;
-      &-title{
+      &-title {
         height: 110px;
-        width:50% ;
-        background-color:$main-bck-colordark;
+        width: 50%;
+        background-color: $main-bck-colordark;
         position: absolute;
         left: 25%;
         bottom: -50px;
         border-radius: 18px;
         padding: 20px;
         line-height: 35px;
-        h2{
+        strong {
           font-size: 40px;
-          font-family: 'Times New Roman', Times, serif;
+          font-family: "Times New Roman", Times, serif;
           font-weight: 400;
-          color:$main-bck-color;
+          color: $main-bck-color;
           letter-spacing: 2.8px;
           padding-bottom: 5px;
-          span{
-              color:$about-span-color
+          margin-top: 0px !important;
+          span {
+            color: $about-span-color;
           }
         }
-        p{
-          color:$main-bck-color;
+        p {
+          color: $main-bck-color;
           letter-spacing: 2.22px;
           font-weight: 400;
         }
       }
     }
-    &-author{
+    &-author {
       max-width: 1140px;
       margin: 0 auto;
       margin-top: 80px;
       border: 2px solid black;
-      &-edit{
+      &-edit {
         padding: 10px 15px;
         display: flex;
         gap: 35px;
-        img{
+        img {
           width: 66px;
           height: 53px;
           border-radius: 142% 0 152% 80%;
           object-fit: cover;
         }
-        &-dsc{
-          p{
+        &-dsc {
+          p {
             font-size: 18px;
             margin-bottom: 5px;
             color: $main-txt-color;
-            span{
-              color:$main-footer-navlink;
+            span {
+              color: $main-footer-navlink;
               font-weight: 400;
             }
           }
         }
-        &-link{
+        &-link {
           display: flex;
           gap: 15px;
-          i{
+          i {
             font-size: 30px;
-            color:$main-bck-colordark;
+            color: $main-bck-colordark;
             cursor: pointer;
           }
         }
       }
-      &-story{
+      &-story {
         margin-top: 30px;
         display: flex;
         flex-direction: column;
         gap: 15px;
         padding: 0px 15px;
-        color:$main-txt-color;
+        color: $main-txt-color;
         line-height: 30px;
-        h2{
+        h3 {
           color: $main-bck-colordark;
           position: relative;
         }
-        h2:after{
-          background-color:$main-modal-btn;
+        h3:after {
+          background-color: $main-modal-btn;
           bottom: -6px;
-          content: '';
+          content: "";
           height: 4px;
           left: 0;
           position: absolute;
           width: 40px;
-          }
-          h3{
-            color: $main-bck-colordark;
-          }
+        }
+        h3 {
+          color: $main-bck-colordark;
         }
       }
     }
-  }  
+  }
+}
