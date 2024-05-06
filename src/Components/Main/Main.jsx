@@ -6,6 +6,7 @@ import MainModal from '../MainModalSection/MainModal'
 import MainUnpac from '../MainUnpacSection/MainUnpac'
 import MainFooter from '../MainFooterSection/MainFooter'
 
+import './Main.scss'
 
 
 export default function Main() {
@@ -18,9 +19,7 @@ export default function Main() {
         <MainModal/>
         <MainUnpac/>
         <MainFooter/>
-      </div>
-     
+      </div >
     </div>
-   
   )
 }

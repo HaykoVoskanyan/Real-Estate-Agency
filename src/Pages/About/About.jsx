@@ -37,7 +37,10 @@ export default function About() {
           </div>
           </div>
       </div>
-     
+      <div className="About__footer">
+        <p>Lifetime ISA`s Footer</p>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, iste. In obcaecati facilis temporibus voluptatibus, tempora reprehenderit doloremque? Necessitatibus perspiciatis, molestias pariatur id, beatae itaque at veniam ipsa voluptates tenetur blanditiis libero eum voluptatibus cupiditate in quisquam autem mollitia fugit vero. Quam, earum molestiae. Iusto dolorum voluptates accusantium corporis molestias omnis dolorem vitae, temporibus distinctio asperiores animi esse corrupti dolore dolores repudiandae harum, necessitatibus reprehenderit quia quaerat! Deserunt error sit quasi tenetur vero autem reiciendis amet quia sed maxime repellendus beatae delectus nostrum dicta, ex sint doloremque dolorum nemo culpa alias atque. Unde rerum optio eligendi ab, est itaque recusandae?</span>
+      </div>
      </div>
    </div>
   )

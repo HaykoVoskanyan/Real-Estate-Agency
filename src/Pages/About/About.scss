@@ -43,7 +43,7 @@
       max-width: 1140px;
       margin: 0 auto;
       margin-top: 80px;
-      border: 2px solid black;
+      border: 2px solid $about_brd-color;
       &-edit {
         padding: 10px 15px;
         display: flex;
@@ -101,5 +101,16 @@
         }
       }
     }
+  }
+  &__footer{
+    p{
+      font-size: 22px;
+      color: $main-bck-colordark;
+      margin-bottom: 15px;
+      font-weight: 500;
+    }
+    padding: 50px 40px;
+    line-height: 23px;
+    color:$main-txt-color;
   }
 }
